@@ -3,11 +3,17 @@ description: A new Flutter package project.
 version: 0.0.1
 author: Michael Suleiman
 homepage: http://www.example.com
+publish_to: 'none'
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
+  firebase_auth: ^1.0.0
+  firebase_auth_service:
+    git:
+      url: https://github.com/Omeiza17/flutter_packages
+      path: packages/firebase_auth_service
   flutter:
     sdk: flutter
   google_sign_in: ^5.0.0
