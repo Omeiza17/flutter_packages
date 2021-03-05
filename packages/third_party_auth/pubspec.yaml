@@ -1,0 +1,19 @@
+name: third_party_auth
+description: A new Flutter package project.
+version: 0.0.1
+author: Michael Suleiman
+homepage: http://www.example.com
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_sign_in: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter: null
